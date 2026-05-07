@@ -221,6 +221,10 @@ body{font-family:'Inter',sans-serif;background:var(--ib-black);color:var(--ib-te
       <p>Recent users:</p>
       <div id="known-users-list"></div>
     </div>
+
+    <div style="margin-top:16px;text-align:center;border-top:1px solid var(--ib-border);padding-top:12px">
+      <button onclick="resetAdminToken()" style="background:transparent;border:none;color:var(--ib-muted);font-size:11px;cursor:pointer;font-family:Inter,sans-serif;text-decoration:underline">🔑 Update GitHub Token</button>
+    </div>
   </div>
 </div>
 
@@ -783,6 +787,17 @@ document.getElementById('admin-save-btn').addEventListener('click', async ()=>{
 document.getElementById('admin-token-input').addEventListener('keydown', e=>{
   if(e.key==='Enter') document.getElementById('admin-save-btn').click();
 });
+
+// ── Reset token ──────────────────────────────────────────────────────────────
+function resetAdminToken(){
+  localStorage.removeItem('ib_admin_token');
+  document.getElementById('login-screen').style.display='none';
+  document.getElementById('admin-screen').style.display='flex';
+  document.getElementById('admin-token-input').value='';
+  document.getElementById('admin-msg').style.display='none';
+  document.getElementById('admin-save-btn').disabled=false;
+  document.getElementById('admin-save-btn').textContent='Save & Continue';
+}
 
 // ── Boot ──────────────────────────────────────────────────────────────────────
 if(!localStorage.getItem('ib_admin_token')){
