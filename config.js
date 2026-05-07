@@ -4,7 +4,7 @@
 // Keep this repo PRIVATE so this token stays safe.
 // ─────────────────────────────────────────────────────────────────────────────
 window.IB_CONFIG = {
-  token:  "PASTE_YOUR_NEW_TOKEN_HERE",
+  token:  "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",
   repo:   "prasanth723/Markdown-training-studio",
   branch: "main"
 };
