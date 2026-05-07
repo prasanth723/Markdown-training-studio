@@ -1,3 +1,9 @@
 {
-  "users": []
+  "users": [
+    {
+      "username": "prasanth",
+      "displayName": "Prasanth",
+      "passwordHash": "a5421a4ca2db09383e0dee46353c86b3fc29a9b42a4da1ed34ac90abe1b31621"
+    }
+  ]
 }
