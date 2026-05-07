@@ -4,6 +4,11 @@
       "username": "prasanth",
       "displayName": "Prasanth",
       "passwordHash": "a5421a4ca2db09383e0dee46353c86b3fc29a9b42a4da1ed34ac90abe1b31621"
+    },
+    {
+      "username": "test",
+      "displayName": "test",
+      "passwordHash": "9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08"
     }
   ]
 }
