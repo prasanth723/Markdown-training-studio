@@ -14,6 +14,11 @@
       "username": "uma",
       "displayName": "uma",
       "passwordHash": "f7681aeb23a4d1741d0abccc48f82d66a0a6c9a9d3f38b97076ae2baa3805594"
+    },
+    {
+      "username": "akash",
+      "displayName": "Akash",
+      "passwordHash": "3f9025f98b34763efce6852d4b3ae4880324a6472b168f3822636df006cd2288"
     }
   ]
 }
