@@ -24,6 +24,11 @@
       "username": "muktha",
       "displayName": "Muktha",
       "passwordHash": "4d656559af21a2c69310eae3d540e68f64fff69178d4f9d81b28aafd0bef5947"
+    },
+    {
+      "username": "jyothi",
+      "displayName": "Jyothi",
+      "passwordHash": "6239b479b97a15a5a494351afcc22b5b85627f37250649713c0d6f4d1d10100a"
     }
   ]
 }
